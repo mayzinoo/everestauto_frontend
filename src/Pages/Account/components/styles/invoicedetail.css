@@ -1,0 +1,59 @@
+.myinvoice {
+    padding: 30px 60px 30px 30px !important;
+  }
+  
+  .sub-title {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .invoice-form-wrap {
+    box-shadow: #00000029 0px 1px 4px;
+    background-color: #ffffff;
+    padding: 30px 30px 10px 30px;
+  }
+  
+  .data-table {
+  }
+  
+  .data-table-thead {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    text-align: left;
+    background: #E8C136 !important;
+  }
+  
+  .logo {
+    display: flex;
+    width: 300px;
+  }
+  
+  .invoice-btn-div {
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+    margin-bottom: 22px;
+  }
+  
+  .invoice-btn {
+    color: #fff;
+    border-color: #E8C136;
+    background-color: #E8C136;
+    border-radius: 8px;
+    padding-top: 5px;
+  }
+  
+  .invoice-col-css {
+    text-align: end;
+  }
+  
+  .total-col-css {
+    justify-content: flex-end;
+    display: flex;
+  }
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 3px;
+}

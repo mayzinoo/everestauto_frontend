@@ -1,0 +1,54 @@
+.myinvoice {
+  padding: 30px 60px 30px 30px !important;
+}
+
+.sub-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.invoice-form-wrap {
+  background-color: #ffffff;
+  padding: 30px 30px 10px 30px;
+}
+
+.data-table-thead {
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  text-align: left;
+  background: #E8C136 !important;
+}
+
+.viewicon-btn {
+  --tw-bg-opacity: 1;
+  background-color: #5DE836;
+  border-color: #5DE836;
+  border-radius: 0.25rem;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 30px;
+  display: flex;
+}
+
+.viewicon-btn:hover{
+  background-color: #5DE836;
+  border-color: #5DE836;
+}
+.viewicon-btn.active, .viewicon-btn:active{
+  background-color: #5DE836;
+  border-color: #5DE836;
+}
+
+.view-icon-css {
+  color: #fff;
+  font-size: 21px;
+}
+
+.no-data-css {
+  font-size: 20px;
+  padding-bottom: 30px;
+  font-weight: bold;
+  color: #000;
+}

@@ -1,0 +1,37 @@
+.faq-container-wrap {
+  padding: 65px 80px 80px 80px;
+}
+
+.title-css {
+  text-align: center;
+  font-size: 38px;
+  font-weight: bold;
+  color: #E8C136;
+}
+
+.accordion {
+  --bs-accordion-border-color: #fff !important;
+  --bs-accordion-inner-border-radius: 0rem !important;
+}
+
+h5{
+  margin-top: 1.5rem !important;
+  margin-bottom: .1rem !important;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.accordion-header {
+  margin-bottom: 0;
+  margin-top: 15px !important;
+  border: 1px solid #adb0b3 !important;
+  border-radius: 0.2rem;
+}
+
+.no-data-css {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 30px;
+  font-weight: bold;
+  color: #000;
+}

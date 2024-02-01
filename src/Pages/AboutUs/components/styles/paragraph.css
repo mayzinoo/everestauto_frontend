@@ -1,0 +1,25 @@
+.paragraph-container {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.mini-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.paragraph,
+.para-text {
+  text-align: center;
+}
+
+.space {
+  height: 2vh;
+}

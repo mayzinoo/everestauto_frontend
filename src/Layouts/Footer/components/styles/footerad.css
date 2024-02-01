@@ -1,0 +1,35 @@
+.footer-ad-wrap{
+    display: flex;
+    align-Items: flex-start;
+    margin-bottom: 30px;  
+}
+
+.footer-ad-desc{
+    text-transform: capitalize;
+    font-size: 40px;
+    margin: 0px;
+    font-size: 2.25rem;
+}
+
+.footer-ad-btn-wrap{
+    margin-left: auto;
+}
+
+@media all and (max-width: 770px){
+    .footer-ad-wrap{
+        flex-direction: column;
+    }
+    .footer-ad-desc{
+        margin: 0px auto 20px auto;
+    }
+
+    .footer-ad-btn-wrap{
+        margin-right: auto;
+    }
+}
+
+@media all and (max-width: 550px){
+    .footer-ad-desc{
+        font-size: 28px;
+    }
+}

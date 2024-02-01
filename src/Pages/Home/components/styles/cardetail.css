@@ -1,0 +1,498 @@
+.car-container-wrap {
+  padding: 20px 32px 20px 32px;
+}
+
+.car-container {
+  padding: 0px !important;
+}
+
+.car-image {
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  display: flex;
+  padding-left: 17rem;
+  padding-right: 17rem;
+}
+
+.vehicle-cs-carousel-item-wrap {
+  background-color: #fff;
+  height: 350px;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  margin: 15px 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-fluid {
+  width: 830px;
+  height: 110%;
+  object-fit: cover;
+}
+
+.row-css {
+  margin: 30px 10px;
+  border: 2px solid #e5e7eb;
+  border-radius: 13px;
+  background-color: #e5e7eb;
+}
+
+.div-col-css {
+  background-color: #e5e7eb;
+  border-radius: 13px;
+  position: relative;
+  z-index: 1;
+}
+
+.div-col1-css {
+  background-color: #ffffff;
+  border-radius: 13px;
+  z-index: 2;
+}
+
+/* for desktop */
+.whatsapp {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #25d366;
+  color: #fff;
+  opacity: 1;
+  border-radius: 50px;
+}
+
+.whatsapp-bsicon {
+  height: 1.5rem;
+  width: 1.5rem;
+  display: block;
+  max-width: 100%;
+  margin-top: -1px;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.choose-main-css {
+  border: 1px solid;
+  border-radius: 5px;
+  margin-right: 12px;
+  margin-top: 15px;
+}
+
+.choose-sub-css {
+  margin-bottom: 3px;
+  margin-top: 11px;
+  text-align: center;
+}
+
+.choose-sub1-css {
+  margin-bottom: 10px;
+  margin-top: 4px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.line {
+  margin: 20px 0px 20px 0px !important;
+  border-top: 2px dashed #000;
+}
+
+.cs-item-price {
+  color: #e8c136;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#price:hover,
+#price:focus {
+  border: 1px solid;
+  border-color: #e8c136;
+}
+
+#price-text:hover,
+#price-text:focus {
+  color: #e8c136;
+}
+
+.color-div {
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 4px;
+}
+
+.color-text {
+  font-size: 0.875rem;
+  color: #9ca3af;
+  margin-bottom: 3px;
+  margin-top: 6px;
+}
+
+.color-text1 {
+  font-size: 0.875rem;
+  margin-bottom: 3px;
+  margin-top: 6px;
+  font-weight: 600;
+}
+
+.color-box {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.rec-arrow-left,
+.rec-arrow-right {
+  border-radius: 20px !important;
+  width: 30px !important;
+  height: 80px !important;
+  min-width: 35px !important;
+  color: #e8c136 !important;
+  box-shadow: none !important;
+  background-color: #fff !important;
+}
+
+.rec-arrow-left:hover,
+.rec-arrow-right:hover {
+  color: #e8c136 !important;
+  background-color: #fff !important;
+}
+
+.rec-dot {
+  border: 1px solid #e8c136 !important;
+  box-shadow: none !important;
+}
+
+.rec-dot_active {
+  box-shadow: none !important;
+  background-color: #e8c136 !important;
+  transform: scale(1) !important;
+}
+
+.check-css {
+  margin-top: 30px;
+  font-size: 25px;
+  color: #e8c136;
+}
+
+.sub-span {
+  opacity: 1;
+  color: #000;
+  line-height: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 11px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: #e8c136;
+  border-radius: 9999px;
+  height: 1.3rem;
+  position: absolute;
+  margin-top: -11px;
+  margin-left: 48px;
+}
+
+.promotion-div {
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.coupon-row-css {
+  margin-top: 20px;
+  --tw-bg-opacity: 1;
+  background-color: #f0fdf4;
+  border-radius: 1rem;
+  margin-left: 5px;
+  width: 94%;
+}
+
+.fill-check-css {
+  font-size: 23px;
+  color: #e8c136;
+}
+
+.fill-dash-css {
+  font-size: 23px;
+}
+
+.m-15 {
+  margin-top: 15px;
+}
+
+.coupon-text {
+  margin-bottom: 5px;
+}
+
+.book-btn {
+  padding: 6px 0px 8px 0px;
+  font-size: 20px !important;
+  color: #000;
+  background-color: #e8c136;
+  border-color: #e8c136;
+}
+
+.book-btn:hover {
+  color: #000;
+  background-color: #d3aa18;
+  border-color: #d3aa18;
+}
+
+.btn-primary {
+  color: #000 !important;
+  background-color: #d3aa18 !important;
+  border-color: #d3aa18 !important;
+}
+
+.apply-btn {
+  padding: 4px 40px 7px 40px;
+  line-height: 25px;
+  color: #000;
+  background-color: #e8c136;
+  border-color: #e8c136;
+}
+
+.apply-btn:hover {
+  color: #000;
+  background-color: #d3aa18;
+  border-color: #d3aa18;
+}
+
+.modal-content {
+  width: 130% !important;
+  margin-left: -90px !important;
+}
+
+.radio-div {
+  border: 1px solid #e8c136;
+  border-radius: 7px;
+}
+
+.form-check {
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 2em;
+  margin: 0.5rem;
+}
+
+input {
+  width: 237px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+}
+
+.calendar-css {
+  font-size: 25px;
+  color: #e8c136;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.clock-css {
+  font-size: 25px;
+  color: #e8c136;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.phone-css {
+  font-size: 25px;
+  color: #e8c136;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.creditcard-css {
+  font-size: 25px;
+  color: #e8c136;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.form-select {
+  width: 89% !important;
+}
+
+.line1 {
+  margin: 5px 0px 20px 0px !important;
+  border-top: 1px solid #9ca3af;
+}
+
+.checkbox-div {
+  justify-content: flex-end;
+  align-items: flex-end;
+  display: flex;
+}
+
+.modal-footer {
+  display: block !important;
+}
+
+.fooder {
+  justify-content: flex-end;
+  align-items: flex-end;
+  display: flex;
+}
+
+.fooder-btn {
+  height: 45px;
+  width: 170px;
+  color: #000;
+  background-color: #e8c136;
+  border-color: #e8c136;
+  padding-top: 2px;
+  margin-left: 25px;
+}
+
+.fooder-btn:hover {
+  color: #000;
+  background-color: #d3aa18;
+  border-color: #d3aa18;
+}
+
+.booking-fooder {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.modal-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nextstep-coupon {
+  border-radius: 6px;
+  border: 1px solid #000;
+  width: 257px;
+}
+
+.apply-prom {
+  background-color: #e8c136;
+  height: 47px;
+  width: 257px;
+  border-color: #e8c136;
+}
+
+.booking-price {
+  display: flex;
+  justify-content: flex-end;
+  width: 250px;
+}
+
+.modal {
+  --bs-modal-padding: 2rem !important;
+  --bs-modal-header-padding: 1rem 2rem !important;
+}
+
+.preEmpt-error-msg {
+  color: #e86836;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.line2 {
+  margin: 20px 0px 27px 0px !important;
+  border-top: 1px solid #9ca3af;
+  width: 96%;
+}
+
+.share-text {
+  opacity: 1;
+  color: #9ca3af;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.share-div {
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.share-facebook-btn {
+  --tw-bg-opacity: 1;
+  background-color: #3b5998;
+  border-color: #3b5998;
+  border-radius: 0.25rem;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  display: flex;
+}
+
+.share-icon-facebook {
+  color: #fff;
+  font-size: 21px;
+}
+
+.share-whatsapp-btn {
+  --tw-bg-opacity: 1;
+  background-color: #01c24e;
+  border-color: #01c24e;
+  border-radius: 0.25rem;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  display: flex;
+}
+
+.share-icon-whatsapp {
+  color: #fff;
+  font-size: 30px;
+}
+
+.share-line-btn {
+  --tw-bg-opacity: 1;
+  background-color: #01c24e;
+  border-color: #01c24e;
+  border-radius: 0.25rem;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  display: flex;
+}
+
+.share-icon-line {
+  color: #fff;
+  font-size: 30px;
+}
+
+.exclamation {
+  font-size: 30px;
+  color: #e8c136;
+  margin-right: 10px;
+}
+
+.exclamation-text {
+  margin-top: 2px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.preEmpt-error-msg {
+  color: #ff0812;
+  font-size: 14px;
+  margin-top: 3px;
+}

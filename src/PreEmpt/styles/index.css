@@ -1,0 +1,146 @@
+.preEmpt-container {
+  justify-content: center;
+  display: flex;
+}
+
+.preEmpt-form-wrap {
+  border-radius: 10px;
+  background: white;
+  margin: 60px 10px 60px 10px;
+  box-shadow: #3c40434d 0px 1px 2px 0px,#3c404326 0px 2px 6px 2px;
+  width: 450px;
+}
+
+.pE-title {
+  text-align: center;
+  border-bottom: 1px solid #0000001a;
+  padding: 35px 45px;
+  margin: 0px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.preEmpt-form {
+  padding: 45px;
+}
+
+@media all and (max-width: 450px) {
+  .pE-title {
+    padding: 25px 30px;
+  }
+  .preEmpt-form {
+    padding: 30px;
+  }
+}
+
+.preEmpt-inputfield-wrap {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.preEmpt-error-msg {
+  color: #E86836;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.preEmpt-form-input-label {
+  font-weight: bold;
+  margin-bottom: 0px;
+  font-size: 18px;
+  color: #00000059;
+  transition: all 0.2s ease-in-out;
+}
+
+.preEmpt-form-input-label i {
+  padding-right: 10px;
+}
+
+.forgot {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.forgot:hover {
+  color: black;
+}
+
+.preEmpt-form-input {
+  line-height: 35px;
+  border: none;
+  border-bottom: 1px solid #0000002c;
+  transition: all 0.2s ease-in-out;
+}
+
+.error {
+  border-color: #E86836;
+}
+
+.preEmpt-form-input:focus {
+  outline: none;
+  border-bottom: 1px solid #E8C136;
+}
+
+.error:focus {
+  border-bottom: 1px solid #E86836 !important;
+}
+
+.preEmpt-form-input:focus + .preEmpt-form-input-label {
+  color: #E8C136;
+}
+
+.preEmpt-formSubmitBtn-wrap {
+  margin-bottom: 35px;
+}
+
+.preEmpt-registerlink-label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #00000059;
+  text-align: center;
+  justify-content: center;
+}
+
+.preEmpt-registerlink {
+  text-decoration: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.success-css{
+  color: #B6E836;
+  background-color: #fff;
+}
+
+.danger-css{
+  color: #E86836;
+  background-color: #fff;
+}
+
+.alert-primary {
+  --bs-alert-color: #fff !important;
+  --bs-alert-bg: #fff !important;
+  --bs-alert-border-color: #fff !important;
+  --bs-alert-padding-x: 0.2rem !important;
+  --bs-alert-padding-y: 0.2rem !important;
+}
+
+.alert-heading {
+  color: inherit;
+  font-size: 17px !important;
+  text-align: center;
+  margin-bottom: .1rem !important;
+}

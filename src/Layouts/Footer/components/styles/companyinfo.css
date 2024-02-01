@@ -1,0 +1,114 @@
+.footer-company-info-wrap{
+    margin: 30px 0px 0px 0px;
+}
+
+.footer-ci-col{
+    margin-bottom: 30px;
+}
+
+.footer-ci-col-title{
+    font-size: 22px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.footer-ci-col-desc{
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.footer-ci-col-desc span{
+    display: flex;
+    align-items: center;
+    margin: 15px 0px 10px 0px;
+}
+
+.footer-ci-col-desc span i{
+    color: #E8C136;
+    padding-right: 15px;
+}
+
+.footer-ci-col-link{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #fff !important;
+}
+
+.footer-ci-col-link:hover{
+    color: #E8C136 !important;
+}
+
+.footer-ci-col-subtitle{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.social-input-wrap{
+    margin-bottom: 25px;
+    display: flex;
+    height: 45px;
+    width: 100%;
+}
+
+.footer-social-mail-input{
+    width: 85%;
+    border: 0.5px solid white;
+    border-right: 1px solid #E8C136;
+}
+
+.footer-social-mail-input:focus{
+    outline: none !important;
+}
+
+.social-input-wrap span{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E8C136;
+}
+
+.footer-social-icons-wrap{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-social-icons{
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #E8C136;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-transition: 0.6s ease-out;
+    -moz-transition:  0.6s ease-out;
+    transition:  0.6s ease-out;
+}
+
+.footer-social-icons i{
+    -webkit-transition: 0.6s ease-out;
+    -moz-transition:  0.6s ease-out;
+    transition:  0.6s ease-out;
+}
+
+.footer-social-icons i:hover{
+    color: #E8C136;
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+
+
+

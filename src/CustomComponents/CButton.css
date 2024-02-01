@@ -1,0 +1,19 @@
+/* General Btn */
+.defaultGeneralBtn{
+    text-decoration: none;
+    border: none;
+    color: #000;
+    font-size: 19px;
+    background-color: #E8C136;
+    width: fit-content;
+    padding: 12px 35px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+}
+
+.defaultGeneralBtn:hover{
+    color: #000;
+    background-color: #D3AA18;
+}

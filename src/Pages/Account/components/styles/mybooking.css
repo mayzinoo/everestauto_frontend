@@ -1,0 +1,25 @@
+.mybooking {
+  padding: 30px 60px 30px 30px !important;
+}
+
+.sub-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.nav-tabs {
+  --bs-nav-tabs-border-color: #fff !important;
+  --bs-nav-tabs-link-hover-border-color: #fff #fff #fff !important;
+  --bs-nav-tabs-link-active-border-color: #fff #fff #fff !important;
+  margin-bottom: 1px !important;
+}
+
+.nav-link {
+  padding: 15px 9px !important;
+}
+
+.booking-form-wrap {
+  box-shadow: #00000029 0px 1px 4px;
+  background-color: #ffffff;
+  padding: 30px 30px 10px 30px;
+}

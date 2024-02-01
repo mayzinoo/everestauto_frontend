@@ -1,0 +1,9 @@
+.image-container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.car-image {
+  padding: 10px;
+}

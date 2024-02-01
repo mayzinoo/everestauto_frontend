@@ -1,0 +1,64 @@
+.ad-container {
+  background: url(https://st.depositphotos.com/2528559/2859/i/600/depositphotos_28592441-stock-photo-blue-car-front-view.jpg);
+  background-position: right !important;
+  background-repeat: no-repeat !important;
+  padding: 0px !important;
+}
+
+.ad-header-wrap {
+  padding: 64px 0px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ad-hide-Image {
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+.ad-mainHeader {
+  font-weight: 600;
+  margin-bottom: 32px;
+  width: 500px;
+}
+
+.ad-subHeader {
+  font-weight: 300;
+  margin-bottom: 32px;
+}
+
+@media all and (max-width: 1024px) {
+  .ad-container {
+    background: none;
+  }
+  .ad-header-wrap {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .ad-header-wrap a {
+    align-self: center;
+  }
+
+  .ad-hide-Image {
+    display: inline;
+  }
+
+  .ad-mainHeader {
+    width: 100%;
+  }
+
+  .ad-subHeader {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .ad-mainHeader {
+    font-size: 25px;
+    font-weight: 600;
+  }
+}

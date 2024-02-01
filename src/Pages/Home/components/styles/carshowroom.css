@@ -1,0 +1,24 @@
+.showroom-container-wrap {
+  padding: 40px 0px 60px 0px;
+}
+
+.cs-mainheader {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.mb-3 {
+  margin-bottom: 1rem !important;
+  justify-content: center;
+}
+
+.nav-tabs {
+  --bs-nav-tabs-border-color: #fff !important;
+  --bs-nav-tabs-link-hover-border-color: #fff #fff #fff !important;
+  --bs-nav-tabs-link-active-border-color: #fff #fff #fff !important;
+}
+
+.showroom-container-wrap ul li {
+  margin: 0px 20px;
+}
